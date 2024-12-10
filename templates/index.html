@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project1</title>
+        <link rel="stylesheet" href="../static/css/style.css">
+    </head>
+    <body>
+        <div class="first">
+           <h1>one</h1>
+        </div>
+        <div class="second">
+            <h1>second</h1>
+        </div>
+        <div class="third">
+            <h1>third</h1>
+        </div>
+        <div style="clear: both"></div>
+        <div class="reg-div">
+            <h1>Please Register 👇</h1>
+            <form action="/reg_data" method="post">
+              <input type="text" placeholder="Enter Name" name="u_name">
+              <input type="number" placeholder="Enter ContactNo" name="u_num">
+              <input type="email" placeholder="Enter mail id" name="u_mail">
+              <input type="password" placeholder="Enter password" name="u_pass">
+              <button id="reg-btn" type="submit">Register</button>
+            </form>
+        </div>
+        <div class="login-div">
+            <h1> Login Here 👇</h1>
+            <form action="/login_data" method="post">
+              <input type="email" placeholder="Enter mail id" name="u_mail">
+              <input type="password" placeholder="Enter password" name="u_pass">
+              <button id="login-btn" type="submit">Login</button>
+            </form>
+            
+        </div>
+    </body>
+</html>
+
